@@ -1,0 +1,24 @@
+h1{
+    background-color: blueviolet;
+}
+
+.highlight{
+    background-color: yellow;
+
+}
+body {
+    font-family: sans-serif;
+  }
+  
+  #one {
+    background-color: yellow;
+  }
+  
+  h1#heading {
+    color: rebeccapurple;
+  }
+  
+  * {
+    margin: 0;
+  }
+    
