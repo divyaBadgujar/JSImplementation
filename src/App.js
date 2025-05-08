@@ -62,6 +62,11 @@ import { LogicalOperator } from './Operators/LogicalOperator';
 import { Promises } from './Promises/Promises';
 import { AsyncAwait } from './AsyncAwait/AsyncAwait';
 import { AsyncAwait1 } from './AsyncAwait/AsyncAwait1';
+import { ShiftZeroLast } from './LogicalPrograms/ShiftZeroLast';
+import { OddEvenArrangement } from './LogicalPrograms/OddEvenArrangement';
+import { FindFirstNonRepeatingCharacter } from './LogicalPrograms/FindFirstNonRepeatingCharacter';
+import { FindMissingNumber } from './LogicalPrograms/FindMissingNumber';
+import { DeepCopy } from './LogicalPrograms/DeepCopy';
 
 function App() {
   return (
@@ -128,7 +133,12 @@ function App() {
         {/* <LogicalOperator> </LogicalOperator> */}
         {/* <Promises></Promises> */}
         {/* <AsyncAwait></AsyncAwait> */}
-        <AsyncAwait1></AsyncAwait1>
+        {/* <AsyncAwait1></AsyncAwait1> */}
+        {/* <ShiftZeroLast></ShiftZeroLast> */}
+        {/* <OddEvenArrangement></OddEvenArrangement> */}
+        {/* <FindFirstNonRepeatingCharacter></FindFirstNonRepeatingCharacter> */}
+        {/* <FindMissingNumber></FindMissingNumber> */}
+        <DeepCopy></DeepCopy>
     </div>
   );
 }

@@ -77,7 +77,7 @@ function test() {
 output - ('output is nothing because we didnt call console.log() in test() function')
 
 
-#program to find first,last and secondlast index of specific elementin an array.
+//program to find first,last and secondlast index of specific elementin an array.
 //function findIndex(arr,target){
 //     let first=-1;
 //     let last=-1;
@@ -98,8 +98,8 @@ output - ('output is nothing because we didnt call console.log() in test() funct
 output - {first : 1, secondlast : 1, last:5}
 
 
-#Program to split the string 
-let str = "My name is divya";
+//Program to split the string 
+//let str = "My name is divya";
 // result=""
 // for(let i=0;i<str.length;i++){
 //     if(str[i]==" "){
