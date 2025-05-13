@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 export const RestOperator = () => {
     function sum(...numbers){
@@ -9,3 +9,6 @@ export const RestOperator = () => {
     <div>RestOperator</div>
   )
 }
+
+
+

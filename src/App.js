@@ -67,6 +67,12 @@ import { OddEvenArrangement } from './LogicalPrograms/OddEvenArrangement';
 import { FindFirstNonRepeatingCharacter } from './LogicalPrograms/FindFirstNonRepeatingCharacter';
 import { FindMissingNumber } from './LogicalPrograms/FindMissingNumber';
 import { DeepCopy } from './LogicalPrograms/DeepCopy';
+import { Call } from './CallApplyBind/Call';
+import { Apply } from './CallApplyBind/Apply';
+import { Bind } from './CallApplyBind/Bind';
+import { Map } from './MaoFilterReduce/Map';
+import { Reduce } from './MaoFilterReduce/Reduce';
+import { Filter } from './MaoFilterReduce/Filter';
 
 function App() {
   return (
@@ -138,7 +144,13 @@ function App() {
         {/* <OddEvenArrangement></OddEvenArrangement> */}
         {/* <FindFirstNonRepeatingCharacter></FindFirstNonRepeatingCharacter> */}
         {/* <FindMissingNumber></FindMissingNumber> */}
-        <DeepCopy></DeepCopy>
+        {/* <DeepCopy></DeepCopy> */}
+        {/* <Call></Call> */}
+        {/* <Apply></Apply> */}
+        {/* <Bind></Bind> */}
+        {/* <Map></Map> */}
+        {/* <Reduce></Reduce> */}
+        <Filter></Filter>
     </div>
   );
 }
